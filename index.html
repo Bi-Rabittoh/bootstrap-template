@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create and play Super Mario levels.">
+    <meta name="author" content="LuNiney">
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+    <title>Super Mario ReMaker</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/marioremaker.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Super Mario ReMaker</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#faq">F.A.Q.</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Features & Downloads</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+    <script>
+if (document.documentElement.clientWidth < 1000) {
+    document.write('<div class="noYT"></div>');
+    }
+    </script>
+    <div class="tv"><div class="screen mute" id="tv"></div></div>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <div class="logobg"><img src="img/SMRemaker_Logo.png" width="100%;" class="img-responsive"></div>
+                <hr>
+                <p style="color:#fff;"><b>Some stuff about your game bla bla bla bla i don't really know what to write blah blah. No, really you can write anything! blaaaa bla bla bla blah</b></p>
+                <p style="color:#fff;"><b>Scroll down for info about the game or</b><br />
+                <a href="#download" class="btn btn-primary btn-xl page-scroll">Skip to the download links</a></p>
+				<!--Facebook like -->
+				<br /><br /><iframe src="http://www.facebook.com/plugins/like.php?href=http://tehlu9prod.ml/SuperMarioReMaker/&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;" style="overflow:hidden;width:100px;height:80px;" scrolling="no" allowtransparency="true" frameborder="0"></iframe>
+				
+            </div>
+        </div>
+    </header>
+
+    <!--<section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About the project</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <h3>Beautiful</h3>
+                        <p class="text-muted">The gorgeous style and shadows of Super Mario Maker for Wii U.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Open Source</h3>
+                        <p class="text-muted">You can literally edit any costumes or stages you want.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-fort-awesome wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Updated</h3>
+                        <p class="text-muted">Updates come regularly for the game.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">Created by a fan, for the fans!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <section class="bg-primary" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">F.A.Q.</h2>
+                    <hr class="light"><div class="text-muted text-left">
+                    <p><B>Q: Is this a remake of Super Mario Maker?</B><br />
+A: Sort of. This project started out as a simple SMB1 engine, but as soon as Super Mario Maker came out, I decided I just had to replicate the "stylized" SMB1 style in it (with shadows), then I ended up reamking various aspects from Super Mario Maker, including Costume Mushrooms (which are fully customizable).</p>
+<p><B>Q: Are you going to add other game styles (SMB3, SMW, NSMBU)?</B><br />
+A: No. This fangame is only gonna have the SMB1 style, which is already the most content-packed style of Super Mario Maker anyways (with the costumes, weird Mario, etc.). If you want these styles just play the original game!</p>
+<p><B>Q: What about a custom style or a style that hasn't been done before (i.e. SMB2)?</B><br />
+A: Probably not. But if there ever will be something like that, the difference will be probably just graphically. The folder of the game is already huge in size because of all music.</p>
+<p><B>Q: Can "X" be a costume? / Can you add a costume of the character "X"?</B><br />
+A: While you are free to request any costume you'd like to see, the answer will be most likely no. Nothing stops you from creating your own costume, though, as you can customize all of them.</p>
+<p><B>Q: Can you add this feature?</B><br />
+A: Like the costumes, I cannot guarantee every request will be granted, but feel free to request.</p>
+<p><b>Q: The costumes are not working!!!</b><br />
+A: Remember that they have to be in a NUMBERED folder in the costumes folder within the content folder (located at %localappdata%\Super_Mario_ReMaker, there's a shortcut to it in the ZIP file).</p>
+<p><b>Q: I can't place a flagpole!</b><br />
+A: For "safety", I decided to make it so you can only place a flagpole on top of normal blocks (letter B shortcut).</p>
+<p><b>Q: The costumes I downloaded from the costume packs have a white background in-game!</b><br />
+A: Make sure you download the costume packs as ZIP from dropbox, and not every file individually.</p>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="features">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="javascript:void(0)" class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Full editor
+                                </div>
+                                <div class="project-name">
+                                    Featuring 9 Course Themes (Ground, Underground, Underwater, Castle, Ghost House, Ice, Desert, Athletic and Night) + one customizable theme.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="javascript:void(0)" class="portfolio-box">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Most elements
+                                </div>
+                                <div class="project-name">
+                                    From SMB1 + some Super Mario Maker exclusives and a few elements from The Lost Levels, SMB Deluxe, and Mario Forever.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="javascript:void(0)" class="portfolio-box">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Powerups
+                                </div>
+                                <div class="project-name">
+                                    All of the SMB1 style powerups (Mushroom, Fire Flower, Costume Mushroom, Weird Mario).
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="javascript:void(0)" class="portfolio-box">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Special mushroom
+                                </div>
+                                <div class="project-name">
+                                    Costume Mushroom with 100% customizable costumes.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="javascript:void(0)" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Simple user interaction
+                                </div>
+                                <div class="project-name">
+                                    Hotkeys for items and "shake" function (right click).
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="javascript:void(0)" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Special modes
+                                </div>
+                                <div class="project-name">
+                                    In example "You vs Boo" from SMBDX.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="download">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Downloads</h2><br />
+                <a href="http://www.mediafire.com/download/m2qy9azvtyjyw4t/SuperMarioReMaker_1stDemo.zip" class="btn btn-default btn-xl wow tada" target="_blank">Download the demo</a><br /><br /><br />
+                <a href="http://www61.zippyshare.com/v/FOoKWSQG/file.html" class="btn btn-default btn-xl wow tada" target="_blank">Download the costumes pack</a><br /><br />
+                <p>The game is for Windows only!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <hr class="primary">
+                    <p>Please report any bug/glitch/error you find to LuNiney!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">i-dont-know@your-email.com</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="https://twitter.com/LuNiney">@LuNiney</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+             <div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 text-center"><p>2015 - 2016 LuNiney<br />
+All copyrighted material is &copy; Nintendo<br />
+For entertainment purposes only.</p>
+<p>Website made by Marku598 (<a href="mailto:andronacomarco@gmail.com">andronacomarco@gmail.com</a>)</p></div></div></div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/marioremaker.js"></script>
+
+</body>
+
+</html>
